@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-spin-slow: spin 3s linear infinite;
+  
+  --color-accent: #ff6b00;
+  --color-neutral-dark: #080808;
+  --color-panel-dark: #111111;
+  --color-border-dark: #222222;
+  
+  --font-serif: "Playfair Display", "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-dark text-[#e0e0e0] antialiased;
+  }
+}

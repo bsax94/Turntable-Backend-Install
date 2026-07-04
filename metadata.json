@@ -1,0 +1,8 @@
+{
+  "name": "Vinyl Stream Installer",
+  "description": "A single-command installer and dashboard for streaming vinyl audio to Chromecast using Icecast and DarkIce.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
